@@ -1,0 +1,75 @@
+.Feedback {
+  width: 600px;
+  background-color: #1d1c38;
+}
+.Feedback h2 {
+  background-color: #111122;
+  text-align: center;
+  color: palevioletred;
+  margin: 0px;
+  padding: 10px;
+}
+.Feedback2 {
+  padding: 20px 50px;
+}
+.Feedback3 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+.Feedback3 > p {
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  font-size: 20px;
+}
+.button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button > input {
+  background-color: gray;
+  text-align: center;
+  border: 1px solid rgba(255, 0, 0, 0);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.comment {
+  position: relative;
+}
+.comment > input:nth-child(1) {
+  border: 1px solid gray;
+  width: 430px;
+  height: 50px;
+  border-radius: 5px;
+}
+.comment > input:nth-child(2) {
+  position: absolute;
+  border-radius: 5px;
+  width: 80px;
+  padding: 5px;
+  top: 11px;
+  right: 30px;
+}
+.button > input:hover {
+  background-color: palevioletred;
+}
+
+.table {
+  margin: 20px 0px;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.edit_remove {
+  float: right;
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-color: rgba(0, 255, 255, 0);
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}

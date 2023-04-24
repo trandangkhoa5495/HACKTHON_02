@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./DN_JS230315_KHOATD.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="Feedback">
+      <div>
+        <h2>Feedback TA</h2>
+      </div>
+
+      <div class="Feedback2">
+        <form class="Feedback3">
+          <p><b>Thầy Phú dạy em có hay không ?????</b></p>
+          <div class="button">
+            <input type="text" value="1" onclick="one(this,this.value)" />
+            <input type="text" value="2" onclick="one(this,this.value)" />
+            <input type="text" value="3" onclick="one(this,this.value)" />
+            <input type="text" value="4" onclick="one(this,this.value)" />
+            <input type="text" value="5" onclick="one(this,this.value)" />
+            <input type="text" value="6" onclick="one(this,this.value)" />
+            <input type="text" value="7" onclick="one(this,this.value)" />
+            <input type="text" value="8" onclick="one(this,this.value)" />
+            <input type="text" value="9" onclick="one(this,this.value)" />
+            <input type="text" value="10" onclick="one(this,this.value)" />
+          </div>
+          <div class="comment">
+            <input type="text" placeholder="Write a review" id="content" />
+            <input type="submit" value="Send" id="submit" />
+          </div>
+        </form>
+        <ul class="table">
+          <li class="item">
+            <span class="rate">8</span>
+            this is Feedback
+            <div class="edit_remove">
+              <button class="edit" onclick="handleEdit()">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete" onclick="handleDelete()">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./DN_JS230315_KHOATD.js"></script>
+  </body>
+</html>
