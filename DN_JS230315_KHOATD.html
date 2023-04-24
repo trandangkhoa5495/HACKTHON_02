@@ -5,6 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./DN_JS230315_KHOATD.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="form">
+      <p><b>Bài 1:</b></p>
+      <input
+        type="text"
+        class="input"
+        placeholder="Nhập chữ vào đây"
+        id="input"
+      />
+      <button onclick="perform()">THỰC HIỆN</button> <br />
+      <input type="text" id="result" class="result" />
+    </div>
+
+    <div class="form">
+      <p><b>Bài 2:</b></p>
+      <input
+        type="text"
+        class="input"
+        placeholder="Nhập chữ vào đây"
+        id="input1"
+      />
+      <button onclick="perform1()">THỰC HIỆN</button> <br />
+      <input type="text" class="result" id="result1" />
+    </div>
+
+    <div class="form">
+      <p><b>Bài 3:</b></p>
+      <input
+        type="text"
+        class="input"
+        placeholder="Nhập theo cú pháp: apple, orange, peach"
+        id="input2"
+      />
+      <button onclick="perform2()">THỰC HIỆN</button> <br />
+      <input type="text" class="result" id="result2" />
+    </div>
+
+    <div class="form">
+      <p><b>Bài 4:</b></p>
+      <input
+        type="text"
+        class="input"
+        placeholder="Nhập theo cú pháp: apple, orange, peach"
+        id="input3"
+      />
+      <button onclick="perform3()">THỰC HIỆN</button> <br />
+      <input type="text" class="result" id="result3" />
+    </div>
+
+    <div class="form">
+      <p><b>Bài 5:</b></p>
+      <button>CREATE</button>
+      <table class="table">
+        <tr>
+          <th>NO</th>
+          <th>NAME</th>
+          <th>AGE</th>
+          <th>GENDER</th>
+          <th>ACTION</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>khoa</td>
+          <td>28</td>
+          <td>nam</td>
+          <td><button>EDIT</button> <button>DELETE</button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./DN_JS230315_KHOATD.js"></script>
+  </body>
 </html>
